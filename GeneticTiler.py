@@ -8,7 +8,7 @@ import ast
 
 
 def main():
-    pickupFromStop = True
+    pickupFromStop = False
 
     rootName = "Pop_Tree_Figs/"
     if not pickupFromStop:
