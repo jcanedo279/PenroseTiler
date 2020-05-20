@@ -54,9 +54,13 @@ class Population:
                         line = line # Void warn
                         self.tileInd += 1
                 self.tileInd += 1
-            with open(self.csvPath, 'w', newline='') as w:
-                if(not self.pickupFromStop):
-                    w.writeheader()
+            else:
+                thewriter.writeheader()
+ 
+            #with open(self.csvPath, 'w', newline='') as w:
+                #if(not self.pickupFromStop):
+                    #thewriter = w.DictWriter(w, fieldnames=self.popFieldNames)
+                    #thewriter.writeheader()
 
             customShift = False
 
