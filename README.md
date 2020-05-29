@@ -1,5 +1,5 @@
 # PenroseTiler
-A Penrose Tile collection built by the hyper grid method, optimized by a genetic algorithm
+A Penrose Tile collection built by the hyper grid method, optimized by a genetic algorithm, the goal of this algorithm is to determine, with certainty, the set of functions that are valid dualizing operators. That is, this algorithm finds the trivial solutions and two non trivial solutions of the projective function that turns a parametrized grid into a tiling. Moreover, these tilings are collections of cells (such as a z2 lattice, aka 2d arrad) that can be generated with any number of tiles, to be made amorphously or not so. It would take too long to describe the full extent of this powerful algorithm so I would recommend checking out the notice about running it below, or look for the mathematical explenation linked on the git.
 
 
 ### VERY IMPORTANT###
